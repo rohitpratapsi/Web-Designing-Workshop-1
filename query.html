@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Test</title>
+
+    <style>
+        body{
+            text-align: center;
+            font-size: 30px;
+            padding: 50px;
+        }
+
+        /* Default */
+        body {
+            background-color: lightgray;
+        }
+
+        /* 768px – Tablets */
+        @media (max-width: 768px) {
+            body {
+                background-color: yellow;
+            }
+        }
+
+        /* 480px – Large Phones */
+        @media (max-width: 480px) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+
+        /* 320px – Small Phones */
+        @media (max-width: 320px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Testing Media Queries</h1>
+</body>
+</html>
